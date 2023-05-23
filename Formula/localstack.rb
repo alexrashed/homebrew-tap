@@ -26,7 +26,7 @@ class Localstack < Formula
     end
   
     def install
-      bin.install Dir["localstack/*"]
-      bin.install_symlink "#{libexec}/localstack" => "localstack"
+        libexec.install Dir["*"]
+        bin.install libexec/"localstack"
     end
   end
