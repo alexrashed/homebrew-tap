@@ -1,7 +1,7 @@
 # typed: false
 # frozen_string_literal: true
 
-class LocalStack < Formula
+class Localstack < Formula
     desc "A fully functional local AWS cloud stack"
     homepage "https://github.com/swartzrock/pace"
     url "https://github.com/alexrashed/localstack-packaged-cli/archive/v2.0.3.dev.tar.gz"
