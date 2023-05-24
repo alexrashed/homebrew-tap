@@ -5,14 +5,8 @@
 class LocalstackPackagedCli < Formula
   desc "Localstack cli packaged using pyinstaller"
   homepage "https://github.com/alexrashed/localstack-packaged-cli"
-  url "https://github.com/alexrashed/localstack-packaged-cli/archive/v2.0.3.dev.tar.gz"
-  sha256 "f92d7a07aef3d61bb11aac6c3a21f0daff7ab94dfb1cc62a45d456c1aa8a853b"
-
-  on_macos do
-  end
-
-  on_linux do
-  end
+  url "https://github.com/alexrashed/localstack-packaged-cli/archive/v2.0.3.dev20230523065743.tar.gz"
+  sha256 "cd7efdccba17dbf71a34459bfac1ce65a8580539a7cbabb655a864de9293da5c"
 
   def install
     libexec.install Dir["*"]
