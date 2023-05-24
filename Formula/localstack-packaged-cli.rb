@@ -16,7 +16,7 @@ class LocalstackPackagedCli < Formula
 
   def install
     libexec.install Dir["*"]
-bin.install_symlink libexec/"localstack"
+    bin.install_symlink libexec/"localstack"
   end
 
   test do
