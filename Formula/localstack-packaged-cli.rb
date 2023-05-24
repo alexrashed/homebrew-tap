@@ -9,9 +9,22 @@ class LocalstackPackagedCli < Formula
   sha256 "811236ecba811693e73cebe9924bb6a31b81bd99dceeee7c96ab4a1c5ec157a0"
 
   on_macos do
+    on_intel do
+      url "https://github.com/alexrashed/localstack-packaged-cli/releases/download/v2.0.3.dev20230524094841/localstack-packaged-cli-2.0.3.de20230524094841-darwin-amd64.tar.gz"
+      sha256 "68918904780ea3421ce45c73ba711a997a5608bcc2121f8d78dd460e26a1de2d"
+    end
+
+    on_arm do
+      url "https://github.com/alexrashed/localstack-packaged-cli/releases/download/v2.0.3.dev20230524094841/localstack-packaged-cli-2.0.3.de20230524094841-darwin-arm64.tar.gz"
+      sha256 "68918904780ea3421ce45c73ba711a997a5608bcc2121f8d78dd460e26a1de2d"
+    end
   end
 
   on_linux do
+    on_intel do
+      url "https://github.com/alexrashed/localstack-packaged-cli/releases/download/v2.0.3.dev20230524094841/localstack-packaged-cli-2.0.3.de20230524094841-linux-amd64.tar.gz"
+      sha256 "79462857c7428a7eb96910790ad852d481d8a7423def49cb3fca11683e06c1b4"
+    end
   end
 
   def install
