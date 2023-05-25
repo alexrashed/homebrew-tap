@@ -5,25 +5,25 @@
 class LocalstackCli < Formula
   desc "Localstack cli packaged using pyinstaller"
   homepage "https://github.com/alexrashed/localstack-cli"
-  url "https://github.com/alexrashed/localstack-cli/archive/v2.0.3.dev20230524230456.tar.gz"
-  sha256 "d282cd5ad53ccdeae7924b0d17399f7194ec125279e53680ffaf8b86ea21dbcf"
+  url "https://github.com/alexrashed/localstack-cli/archive/v2.1.0.tar.gz"
+  sha256 "5e678345889e305dcd1f14dfe506f7d4361fe27ab44a4a9563f614d1b40beb98"
 
   on_macos do
     on_intel do
-      url "https://github.com/alexrashed/localstack-cli/releases/download/v2.0.3.dev20230524230456/localstack-cli-2.0.3.dev20230524230456-darwin-amd64.tar.gz"
-      sha256 "848379b95eda332de545cb1e61533f6ecddce4be6f553ff35f60f25dd0b3fa31"
+      url "https://github.com/alexrashed/localstack-cli/releases/download/v2.1.0/localstack-cli-2.1.0-darwin-amd64.tar.gz"
+      sha256 "4389718d79e8cbec4e4e856d8679a9279907949295d63b49fbd12aefc8677727"
     end
 
     on_arm do
-      url "https://github.com/alexrashed/localstack-cli/releases/download/v2.0.3.dev20230524230456/localstack-cli-2.0.3.dev20230524230456-darwin-arm64.tar.gz"
-      sha256 "848379b95eda332de545cb1e61533f6ecddce4be6f553ff35f60f25dd0b3fa31"
+      url "https://github.com/alexrashed/localstack-cli/releases/download/v2.1.0/localstack-cli-2.1.0-darwin-arm64.tar.gz"
+      sha256 "4389718d79e8cbec4e4e856d8679a9279907949295d63b49fbd12aefc8677727"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/alexrashed/localstack-cli/releases/download/v2.0.3.dev20230524230456/localstack-cli-2.0.3.dev20230524230456-linux-amd64.tar.gz"
-      sha256 "d5ee1b128f09e1e7505f8c4ea33d5fa885a17ba914d8c741c9a2e1ef2c07404b"
+      url "https://github.com/alexrashed/localstack-cli/releases/download/v2.1.0/localstack-cli-2.1.0-linux-amd64.tar.gz"
+      sha256 "9a5e1b37ede7aaab6eb65d51ccbd6dc5c9bf2d8b1507b0b5ab757bfbeaafa81d"
     end
   end
 
